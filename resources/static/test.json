@@ -1,0 +1,23 @@
+{
+  "status": "engine_connect",
+  "from": "swarm node:swarm-node1",
+  "Type": "swarm",
+  "Action": "engine_connect",
+  "Actor": {
+    "ID": "",
+    "Attributes": {
+      "node.addr": "192.168.99.102:2376",
+      "node.id": "3MO2:ACOW:FEG2:4HTM:B3WW:LOEV:6GJQ:7SED:OJEC:OT56:XPE3:YC5V",
+      "node.ip": "192.168.99.102",
+      "node.name": "swarm-node1"
+    }
+  },
+  "time": 1468012642,
+  "timeNano": 1468012642423211841,
+  "node": {
+    "Name": "swarm-node1",
+    "Id": "3MO2:ACOW:FEG2:4HTM:B3WW:LOEV:6GJQ:7SED:OJEC:OT56:XPE3:YC5V",
+    "Addr": "192.168.99.102:2376",
+    "Ip": "192.168.99.102"
+  }
+}

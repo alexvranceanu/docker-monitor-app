@@ -1,0 +1,795 @@
+versions pytest-3.0.5, py-1.4.32, python-3.5.1.final.0
+cwd=/Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources
+args=['--debug', 'tests/test_remote_docker-socket-monitor.py']
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x102c57ba8>
+    pytest_plugin_registered [hook]
+        plugin: <Session 'resources'>
+        manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x102c57ba8>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1031b5e10>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+    find_module called for: py._io.terminalwriter [assertion]
+    find_module called for: termios [assertion]
+    find_module called for: fcntl [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x102c57ba8>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <_pytest.config.Config object at 0x102c57ba8>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/mark.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.mark' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/mark.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/main.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.main' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/main.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/terminal.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.terminal' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/terminal.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/runner.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.runner' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/runner.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/python.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.python' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/python.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/fixtures.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.fixtures' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/fixtures.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/debugging.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.debugging' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/debugging.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/unittest.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.unittest' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/unittest.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/capture.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.capture' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/capture.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/skipping.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.skipping' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/skipping.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/tmpdir.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.tmpdir' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/tmpdir.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/monkeypatch.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.monkeypatch' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/monkeypatch.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/recwarn.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.recwarn' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/recwarn.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/pastebin.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.pastebin' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/pastebin.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/helpconfig.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.helpconfig' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/helpconfig.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/nose.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.nose' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/nose.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/assertion/__init__.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.assertion' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/assertion/__init__.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/junitxml.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.junitxml' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/junitxml.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/resultlog.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.resultlog' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/resultlog.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/doctest.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.doctest' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/doctest.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/cacheprovider.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.cacheprovider' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/cacheprovider.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/freeze_support.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.freeze_support' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/freeze_support.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/setuponly.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.setuponly' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/setuponly.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/setupplan.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.setupplan' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/setupplan.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.capture.CaptureManager object at 0x102ee1e48>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <_pytest.capture.CaptureManager object at 0x102ee1e48>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session 'resources'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <Session 'resources'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1031b5e10>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <_pytest.cacheprovider.LFPlugin object at 0x1031b5e10>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x1031b5be0>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session 'resources'>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x102c57ba8>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <_pytest.config.Config object at 0x102c57ba8>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/mark.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.mark' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/mark.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/main.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.main' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/main.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/terminal.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.terminal' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/terminal.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/runner.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.runner' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/runner.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/python.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.python' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/python.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/fixtures.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.fixtures' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/fixtures.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/debugging.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.debugging' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/debugging.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/unittest.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.unittest' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/unittest.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/capture.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.capture' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/capture.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/skipping.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.skipping' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/skipping.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/tmpdir.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.tmpdir' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/tmpdir.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/monkeypatch.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.monkeypatch' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/monkeypatch.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/recwarn.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.recwarn' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/recwarn.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/pastebin.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.pastebin' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/pastebin.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/helpconfig.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.helpconfig' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/helpconfig.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/nose.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.nose' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/nose.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/assertion/__init__.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.assertion' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/assertion/__init__.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/junitxml.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.junitxml' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/junitxml.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/resultlog.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.resultlog' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/resultlog.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/doctest.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.doctest' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/doctest.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/cacheprovider.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.cacheprovider' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/cacheprovider.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/freeze_support.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.freeze_support' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/freeze_support.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/setuponly.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.setuponly' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/setuponly.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/setupplan.py'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <module '_pytest.setupplan' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/setupplan.py'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.capture.CaptureManager object at 0x102ee1e48>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <_pytest.capture.CaptureManager object at 0x102ee1e48>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session 'resources'>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <Session 'resources'>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1031b5e10>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <_pytest.cacheprovider.LFPlugin object at 0x1031b5e10>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x1031b5be0>
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'plugin': <_pytest.terminal.TerminalReporter object at 0x1031b5be0>, '__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1029eb4a8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x1031cb780>
+          manager: <_pytest.config.PytestPluginManager object at 0x1029eb4a8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x102c57ba8>
+          startdir: /Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources
+      finish pytest_report_header --> [['rootdir: /Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources, inifile: '], ['using: pytest-3.0.5 pylib-1.4.32']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session 'resources'>
+    perform_collect <Session 'resources'> ['tests/test_remote_docker-socket-monitor.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session 'resources'>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session 'resources'>
+        processing argument /Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources/tests/test_remote_docker-socket-monitor.py [collection]
+            pytest_collect_file [hook]
+                path: /Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources/tests/test_remote_docker-socket-monitor.py
+                parent: <Session 'resources'>
+              pytest_pycollect_makemodule [hook]
+                  path: /Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources/tests/test_remote_docker-socket-monitor.py
+                  parent: <Session 'resources'>
+              finish pytest_pycollect_makemodule --> <Module 'tests/test_remote_docker-socket-monitor.py'> [hook]
+            finish pytest_collect_file --> [<Module 'tests/test_remote_docker-socket-monitor.py'>] [hook]
+          matchnodes [<Module 'tests/test_remote_docker-socket-monitor.py'>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module 'tests/test_remote_docker-socket-monitor.py'> [collection]
+      pytest_collectstart [hook]
+          collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+      find_module called for: test_remote_docker-socket-monitor [assertion]
+      matched test file (was specified on cmdline): '/Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources/tests/test_remote_docker-socket-monitor.py' [assertion]
+      _read_pyc(/Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources/tests/test_remote_docker-socket-monitor.py): invalid or out of date pyc [assertion]
+      rewriting '/Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources/tests/test_remote_docker-socket-monitor.py' [assertion]
+      find_module called for: unittest [assertion]
+      find_module called for: unittest.result [assertion]
+      find_module called for: unittest.util [assertion]
+      find_module called for: unittest.case [assertion]
+      find_module called for: difflib [assertion]
+      find_module called for: logging [assertion]
+      find_module called for: unittest.suite [assertion]
+      find_module called for: unittest.loader [assertion]
+      find_module called for: unittest.main [assertion]
+      find_module called for: unittest.runner [assertion]
+      find_module called for: unittest.signals [assertion]
+      find_module called for: urllib.error [assertion]
+      find_module called for: urllib.response [assertion]
+      find_module called for: urllib.request [assertion]
+      find_module called for: http [assertion]
+      find_module called for: http.client [assertion]
+      find_module called for: ssl [assertion]
+      find_module called for: ipaddress [assertion]
+      find_module called for: _ssl [assertion]
+      find_module called for: _scproxy [assertion]
+      find_module called for: utils [assertion]
+      find_module called for: utils.logger [assertion]
+        pytest_pycollect_makeitem [hook]
+            obj: <module 'os' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/os.py'>
+            name: os
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: /Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources/tests/test_remote_docker-socket-monitor.py
+            name: __file__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: ModuleSpec(name='test_remote_docker-socket-monitor', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x102ee1780>)
+            name: __spec__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module 'urllib' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/urllib/__init__.py'>
+            name: urllib
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <logging.Logger object at 0x1031cbf98>
+            name: log
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: test_remote_docker-socket-monitor
+            name: __name__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x102ee1780>
+            name: __loader__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module 'builtins' (built-in)>
+            name: @py_builtins
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module 'unittest' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/unittest/__init__.py'>
+            name: unittest
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module '_pytest.assertion.rewrite' from '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/assertion/rewrite.py'>
+            name: @pytest_ar
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: {'callable': <built-in function callable>, 'ImportWarning': <class 'ImportWarning'>, 'OverflowError': <class 'OverflowError'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'iter': <built-in function iter>, 'slice': <class 'slice'>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, '__import__': <built-in function __import__>, 'TabError': <class 'TabError'>, 'TypeError': <class 'TypeError'>, 'abs': <built-in function abs>, 'filter': <class 'filter'>, 'help': Type help() for interactive help, or help(object) for help about object., 'hasattr': <built-in function hasattr>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, '__build_class__': <built-in function __build_class__>, 'sorted': <built-in function sorted>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'eval': <built-in function eval>, 'pow': <built-in function pow>, 'license': Type license() to see the full license text, 'type': <class 'type'>, 'map': <class 'map'>, '__name__': 'builtins', 'InterruptedError': <class 'InterruptedError'>, 'id': <built-in function id>, 'None': None, 'RecursionError': <class 'RecursionError'>, 'list': <class 'list'>, 'copyright': Copyright (c) 2001-2015 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'isinstance': <built-in function isinstance>, 'format': <built-in function format>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, '__package__': '', 'repr': <built-in function repr>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'KeyError': <class 'KeyError'>, 'open': <built-in function open>, 'GeneratorExit': <class 'GeneratorExit'>, 'hash': <built-in function hash>, 'FloatingPointError': <class 'FloatingPointError'>, 'True': True, 'divmod': <built-in function divmod>, 'ImportError': <class 'ImportError'>, 'dir': <built-in function dir>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", 'False': False, 'setattr': <built-in function setattr>, 'AssertionError': <class 'AssertionError'>, 'staticmethod': <class 'staticmethod'>, 'frozenset': <class 'frozenset'>, 'globals': <built-in function globals>, 'Warning': <class 'Warning'>, 'chr': <built-in function chr>, 'TimeoutError': <class 'TimeoutError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'delattr': <built-in function delattr>, 'FileExistsError': <class 'FileExistsError'>, 'bytearray': <class 'bytearray'>, 'all': <built-in function all>, 'enumerate': <class 'enumerate'>, 'max': <built-in function max>, 'int': <class 'int'>, 'BaseException': <class 'BaseException'>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'classmethod': <class 'classmethod'>, 'NotImplemented': NotImplemented, 'vars': <built-in function vars>, 'UserWarning': <class 'UserWarning'>, 'str': <class 'str'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'LookupError': <class 'LookupError'>, 'Ellipsis': Ellipsis, 'FutureWarning': <class 'FutureWarning'>, 'property': <class 'property'>, 'bin': <built-in function bin>, 'AttributeError': <class 'AttributeError'>, 'complex': <class 'complex'>, 'any': <built-in function any>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), 'BytesWarning': <class 'BytesWarning'>, 'input': <built-in function input>, 'compile': <built-in function compile>, 'getattr': <built-in function getattr>, 'IOError': <class 'OSError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'SystemExit': <class 'SystemExit'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'exec': <built-in function exec>, 'BufferError': <class 'BufferError'>, 'hex': <built-in function hex>, 'ConnectionError': <class 'ConnectionError'>, 'StopIteration': <class 'StopIteration'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'IndentationError': <class 'IndentationError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'float': <class 'float'>, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, 'Exception': <class 'Exception'>, 'sum': <built-in function sum>, 'zip': <class 'zip'>, 'OSError': <class 'OSError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'bytes': <class 'bytes'>, 'next': <built-in function next>, 'NameError': <class 'NameError'>, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'BlockingIOError': <class 'BlockingIOError'>, 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'SystemError': <class 'SystemError'>, 'min': <built-in function min>, 'issubclass': <built-in function issubclass>, '__debug__': True, 'set': <class 'set'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'range': <class 'range'>, 'RuntimeError': <class 'RuntimeError'>, 'memoryview': <class 'memoryview'>, 'EOFError': <class 'EOFError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'locals': <built-in function locals>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'object': <class 'object'>, 'tuple': <class 'tuple'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ReferenceError': <class 'ReferenceError'>, 'ascii': <built-in function ascii>, 'NotImplementedError': <class 'NotImplementedError'>, 'super': <class 'super'>, 'round': <built-in function round>, 'UnicodeError': <class 'UnicodeError'>, 'dict': <class 'dict'>, 'PermissionError': <class 'PermissionError'>, 'bool': <class 'bool'>, 'len': <built-in function len>, 'ResourceWarning': <class 'ResourceWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'print': <built-in function print>, 'EnvironmentError': <class 'OSError'>, 'reversed': <class 'reversed'>, 'SyntaxError': <class 'SyntaxError'>, 'MemoryError': <class 'MemoryError'>, 'IndexError': <class 'IndexError'>, 'ValueError': <class 'ValueError'>}
+            name: __builtins__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: None
+            name: __doc__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <class 'utils.logger.Logger'>
+            name: Logger
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: 
+            name: __package__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <class 'test_remote_docker-socket-monitor.RemoteAPI'>
+            name: RemoteAPI
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> <UnitTestCase 'RemoteAPI'> [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: /Users/alex.vranceanu/Development/gitlab.com/alexvranceanu/docker-socket-monitor/resources/tests/__pycache__/test_remote_docker-socket-monitor.cpython-35-PYTEST.pyc
+            name: __cached__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function _get at 0x102b061e0>
+            name: _get
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__getattribute__' of 'module' objects>
+            name: __getattribute__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__delattr__' of 'module' objects>
+            name: __delattr__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__init__' of 'module' objects>
+            name: __init__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__setattr__' of 'module' objects>
+            name: __setattr__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__dir__' of 'module' objects>
+            name: __dir__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <member '__dict__' of 'module' objects>
+            name: __dict__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <built-in method __new__ of type object at 0x1002264c0>
+            name: __new__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__repr__' of 'module' objects>
+            name: __repr__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__hash__' of 'object' objects>
+            name: __hash__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__subclasshook__' of 'object' objects>
+            name: __subclasshook__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__le__' of 'object' objects>
+            name: __le__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__ne__' of 'object' objects>
+            name: __ne__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <attribute '__class__' of 'object' objects>
+            name: __class__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__sizeof__' of 'object' objects>
+            name: __sizeof__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__format__' of 'object' objects>
+            name: __format__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__reduce_ex__' of 'object' objects>
+            name: __reduce_ex__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__str__' of 'object' objects>
+            name: __str__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__gt__' of 'object' objects>
+            name: __gt__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__reduce__' of 'object' objects>
+            name: __reduce__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__ge__' of 'object' objects>
+            name: __ge__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__eq__' of 'object' objects>
+            name: __eq__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__lt__' of 'object' objects>
+            name: __lt__
+            collector: <Module 'tests/test_remote_docker-socket-monitor.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+      find_module called for: py._std [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_remote_docker-socket-monitor.py' lenresult=1 outcome='passed'> [hook]
+    genitems <UnitTestCase 'RemoteAPI'> [collection]
+      pytest_collectstart [hook]
+          collector: <UnitTestCase 'RemoteAPI'>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <UnitTestCase 'RemoteAPI'>
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI' lenresult=3 outcome='passed'> [hook]
+    genitems <TestCaseFunction 'test_get_env'> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction 'test_get_env'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction 'test_get_ping'> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction 'test_get_ping'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction 'test_get_version'> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction 'test_get_version'>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_remote_docker-socket-monitor.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session 'resources'>
+          config: <_pytest.config.Config object at 0x102c57ba8>
+          items: [<TestCaseFunction 'test_get_env'>, <TestCaseFunction 'test_get_ping'>, <TestCaseFunction 'test_get_version'>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session 'resources'>
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> [<TestCaseFunction 'test_get_env'>, <TestCaseFunction 'test_get_ping'>, <TestCaseFunction 'test_get_version'>] [hook]
+    pytest_runtestloop [hook]
+        session: <Session 'resources'>
+      pytest_runtest_protocol [hook]
+          nextitem: <TestCaseFunction 'test_get_ping'>
+          item: <TestCaseFunction 'test_get_env'>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env
+            location: ('tests/test_remote_docker-socket-monitor.py', 77, 'RemoteAPI.test_get_env')
+        find_module called for: pathlib [assertion]
+        find_module called for: ntpath [assertion]
+        find_module called for: nt [assertion]
+        find_module called for: nt [assertion]
+        find_module called for: nt [assertion]
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction 'test_get_env'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='setup' result: []>
+            item: <TestCaseFunction 'test_get_env'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction 'test_get_env'>
+        find_module called for: encodings.idna [assertion]
+        find_module called for: stringprep [assertion]
+        find_module called for: unicodedata [assertion]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='call' result: []>
+            item: <TestCaseFunction 'test_get_env'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            nextitem: <TestCaseFunction 'test_get_ping'>
+            item: <TestCaseFunction 'test_get_env'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='teardown' result: []>
+            item: <TestCaseFunction 'test_get_env'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_env' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          nextitem: <TestCaseFunction 'test_get_version'>
+          item: <TestCaseFunction 'test_get_ping'>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping
+            location: ('tests/test_remote_docker-socket-monitor.py', 68, 'RemoteAPI.test_get_ping')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction 'test_get_ping'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='setup' result: []>
+            item: <TestCaseFunction 'test_get_ping'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction 'test_get_ping'>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='call' result: []>
+            item: <TestCaseFunction 'test_get_ping'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            nextitem: <TestCaseFunction 'test_get_version'>
+            item: <TestCaseFunction 'test_get_ping'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='teardown' result: []>
+            item: <TestCaseFunction 'test_get_ping'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_ping' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          nextitem: None
+          item: <TestCaseFunction 'test_get_version'>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version
+            location: ('tests/test_remote_docker-socket-monitor.py', 73, 'RemoteAPI.test_get_version')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction 'test_get_version'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='setup' result: []>
+            item: <TestCaseFunction 'test_get_version'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction 'test_get_version'>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='call' result: []>
+            item: <TestCaseFunction 'test_get_version'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            nextitem: None
+            item: <TestCaseFunction 'test_get_version'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='teardown' result: []>
+            item: <TestCaseFunction 'test_get_version'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_remote_docker-socket-monitor.py::RemoteAPI::test_get_version' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session 'resources'>
+        exitstatus: 0
+    cache-write cache/lastfailed: {} [cache]
+      pytest_terminal_summary [hook]
+          exitstatus: 0
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x1031b5be0>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x102c57ba8>
+    finish pytest_unconfigure --> [] [hook]
+  finish [config:tmpdir]
